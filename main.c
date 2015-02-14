@@ -3,6 +3,17 @@
 #include <string.h>
 #include "Mifare.h"
 #include "BlinkOk.h"
+
+/*
+ * 
+ *   NfcPost - Post to REST API when nfc card tapped
+ *
+ * 
+ * 
+ * 
+ * 	oeoren 10 feb 2015
+ */
+
    
 int main(int argc, char **argv)
 {
