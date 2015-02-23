@@ -3,6 +3,9 @@
 
 CMakeFiles/NfcPost.dir/BlinkOk.c.o: BlinkOk.c
 
+CMakeFiles/NfcPost.dir/BuzzIt.c.o: BuzzIt.c
+CMakeFiles/NfcPost.dir/BuzzIt.c.o: BuzzIt.h
+
 CMakeFiles/NfcPost.dir/GetJsonNow.c.o: GetJsonNow.c
 
 CMakeFiles/NfcPost.dir/GetSerial.c.o: GetSerial.c
@@ -42,6 +45,7 @@ CMakeFiles/NfcPost.dir/TapPost.c.o: TapPost.c
 CMakeFiles/NfcPost.dir/TapPost.c.o: TapPost.h
 
 CMakeFiles/NfcPost.dir/main.c.o: BlinkOk.h
+CMakeFiles/NfcPost.dir/main.c.o: BuzzIt.h
 CMakeFiles/NfcPost.dir/main.c.o: Mifare.h
 CMakeFiles/NfcPost.dir/main.c.o: main.c
 CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h

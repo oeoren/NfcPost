@@ -6,35 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/dev/NfcPost/BlinkOk.c
-bcm2835.h
--
-
 /home/pi/dev/NfcPost/BlinkOk.h
 
-/home/pi/dev/NfcPost/GetJsonNow.c
-stdio.h
--
-time.h
--
-
-/home/pi/dev/NfcPost/GetJsonNow.h
-
-/home/pi/dev/NfcPost/GetSerial.c
-stdio.h
--
-stdlib.h
--
-string.h
--
-GetSerial.h
-/home/pi/dev/NfcPost/GetSerial.h
-
-/home/pi/dev/NfcPost/GetSerial.h
-
-/home/pi/dev/NfcPost/Mifare.c
-Mifare.h
-/home/pi/dev/NfcPost/Mifare.h
+/home/pi/dev/NfcPost/BuzzIt.h
 
 /home/pi/dev/NfcPost/Mifare.h
 stdio.h
@@ -70,22 +44,6 @@ phpalFelica.h
 phpalI14443p3b.h
 -
 
-/home/pi/dev/NfcPost/TapPost.c
-stdio.h
--
-curl/curl.h
--
-TapPost.h
-/home/pi/dev/NfcPost/TapPost.h
-time.h
--
-GetJsonNow.h
-/home/pi/dev/NfcPost/GetJsonNow.h
-uuid/uuid.h
--
-
-/home/pi/dev/NfcPost/TapPost.h
-
 /home/pi/dev/NfcPost/main.c
 stdio.h
 -
@@ -97,6 +55,8 @@ Mifare.h
 /home/pi/dev/NfcPost/Mifare.h
 BlinkOk.h
 /home/pi/dev/NfcPost/BlinkOk.h
+BuzzIt.h
+/home/pi/dev/NfcPost/BuzzIt.h
 
 NxpRdLib_PublicRelease/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h
 ph_Status.h

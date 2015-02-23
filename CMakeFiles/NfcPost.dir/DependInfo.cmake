@@ -5,6 +5,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
   "/home/pi/dev/NfcPost/BlinkOk.c" "/home/pi/dev/NfcPost/CMakeFiles/NfcPost.dir/BlinkOk.c.o"
+  "/home/pi/dev/NfcPost/BuzzIt.c" "/home/pi/dev/NfcPost/CMakeFiles/NfcPost.dir/BuzzIt.c.o"
   "/home/pi/dev/NfcPost/GetJsonNow.c" "/home/pi/dev/NfcPost/CMakeFiles/NfcPost.dir/GetJsonNow.c.o"
   "/home/pi/dev/NfcPost/GetSerial.c" "/home/pi/dev/NfcPost/CMakeFiles/NfcPost.dir/GetSerial.c.o"
   "/home/pi/dev/NfcPost/Mifare.c" "/home/pi/dev/NfcPost/CMakeFiles/NfcPost.dir/Mifare.c.o"

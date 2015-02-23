@@ -3,6 +3,9 @@
 
 CMakeFiles/NfcPost.dir/BlinkOk.c.o
  /home/pi/dev/NfcPost/BlinkOk.c
+CMakeFiles/NfcPost.dir/BuzzIt.c.o
+ /home/pi/dev/NfcPost/BuzzIt.c
+ /home/pi/dev/NfcPost/BuzzIt.h
 CMakeFiles/NfcPost.dir/GetJsonNow.c.o
  /home/pi/dev/NfcPost/GetJsonNow.c
 CMakeFiles/NfcPost.dir/GetSerial.c.o
@@ -43,6 +46,7 @@ CMakeFiles/NfcPost.dir/TapPost.c.o
  /home/pi/dev/NfcPost/TapPost.h
 CMakeFiles/NfcPost.dir/main.c.o
  /home/pi/dev/NfcPost/BlinkOk.h
+ /home/pi/dev/NfcPost/BuzzIt.h
  /home/pi/dev/NfcPost/Mifare.h
  /home/pi/dev/NfcPost/main.c
  NxpRdLib_PublicRelease/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h

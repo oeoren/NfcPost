@@ -135,6 +135,30 @@ BlinkOk.c.s:
 	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/BlinkOk.c.s
 .PHONY : BlinkOk.c.s
 
+BuzzIt.o: BuzzIt.c.o
+.PHONY : BuzzIt.o
+
+# target to build an object file
+BuzzIt.c.o:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/BuzzIt.c.o
+.PHONY : BuzzIt.c.o
+
+BuzzIt.i: BuzzIt.c.i
+.PHONY : BuzzIt.i
+
+# target to preprocess a source file
+BuzzIt.c.i:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/BuzzIt.c.i
+.PHONY : BuzzIt.c.i
+
+BuzzIt.s: BuzzIt.c.s
+.PHONY : BuzzIt.s
+
+# target to generate assembly for a file
+BuzzIt.c.s:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/BuzzIt.c.s
+.PHONY : BuzzIt.c.s
+
 GetJsonNow.o: GetJsonNow.c.o
 .PHONY : GetJsonNow.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... BlinkOk.o"
 	@echo "... BlinkOk.i"
 	@echo "... BlinkOk.s"
+	@echo "... BuzzIt.o"
+	@echo "... BuzzIt.i"
+	@echo "... BuzzIt.s"
 	@echo "... GetJsonNow.o"
 	@echo "... GetJsonNow.i"
 	@echo "... GetJsonNow.s"

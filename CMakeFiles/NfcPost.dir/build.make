@@ -187,6 +187,29 @@ CMakeFiles/NfcPost.dir/BlinkOk.c.o.provides: CMakeFiles/NfcPost.dir/BlinkOk.c.o.
 
 CMakeFiles/NfcPost.dir/BlinkOk.c.o.provides.build: CMakeFiles/NfcPost.dir/BlinkOk.c.o
 
+CMakeFiles/NfcPost.dir/BuzzIt.c.o: CMakeFiles/NfcPost.dir/flags.make
+CMakeFiles/NfcPost.dir/BuzzIt.c.o: BuzzIt.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/dev/NfcPost/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/NfcPost.dir/BuzzIt.c.o"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/NfcPost.dir/BuzzIt.c.o   -c /home/pi/dev/NfcPost/BuzzIt.c
+
+CMakeFiles/NfcPost.dir/BuzzIt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/NfcPost.dir/BuzzIt.c.i"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/pi/dev/NfcPost/BuzzIt.c > CMakeFiles/NfcPost.dir/BuzzIt.c.i
+
+CMakeFiles/NfcPost.dir/BuzzIt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/NfcPost.dir/BuzzIt.c.s"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/pi/dev/NfcPost/BuzzIt.c -o CMakeFiles/NfcPost.dir/BuzzIt.c.s
+
+CMakeFiles/NfcPost.dir/BuzzIt.c.o.requires:
+.PHONY : CMakeFiles/NfcPost.dir/BuzzIt.c.o.requires
+
+CMakeFiles/NfcPost.dir/BuzzIt.c.o.provides: CMakeFiles/NfcPost.dir/BuzzIt.c.o.requires
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/BuzzIt.c.o.provides.build
+.PHONY : CMakeFiles/NfcPost.dir/BuzzIt.c.o.provides
+
+CMakeFiles/NfcPost.dir/BuzzIt.c.o.provides.build: CMakeFiles/NfcPost.dir/BuzzIt.c.o
+
 # Object files for target NfcPost
 NfcPost_OBJECTS = \
 "CMakeFiles/NfcPost.dir/main.c.o" \
@@ -194,7 +217,8 @@ NfcPost_OBJECTS = \
 "CMakeFiles/NfcPost.dir/GetSerial.c.o" \
 "CMakeFiles/NfcPost.dir/TapPost.c.o" \
 "CMakeFiles/NfcPost.dir/GetJsonNow.c.o" \
-"CMakeFiles/NfcPost.dir/BlinkOk.c.o"
+"CMakeFiles/NfcPost.dir/BlinkOk.c.o" \
+"CMakeFiles/NfcPost.dir/BuzzIt.c.o"
 
 # External object files for target NfcPost
 NfcPost_EXTERNAL_OBJECTS =
@@ -205,6 +229,7 @@ NfcPost: CMakeFiles/NfcPost.dir/GetSerial.c.o
 NfcPost: CMakeFiles/NfcPost.dir/TapPost.c.o
 NfcPost: CMakeFiles/NfcPost.dir/GetJsonNow.c.o
 NfcPost: CMakeFiles/NfcPost.dir/BlinkOk.c.o
+NfcPost: CMakeFiles/NfcPost.dir/BuzzIt.c.o
 NfcPost: CMakeFiles/NfcPost.dir/build.make
 NfcPost: NxpRdLib_PublicRelease/build/libnxprd.a
 NfcPost: CMakeFiles/NfcPost.dir/link.txt
@@ -221,6 +246,7 @@ CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/GetSerial.c.o.requires
 CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/TapPost.c.o.requires
 CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/GetJsonNow.c.o.requires
 CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/BlinkOk.c.o.requires
+CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/BuzzIt.c.o.requires
 .PHONY : CMakeFiles/NfcPost.dir/requires
 
 CMakeFiles/NfcPost.dir/clean:
