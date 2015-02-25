@@ -210,6 +210,52 @@ CMakeFiles/NfcPost.dir/BuzzIt.c.o.provides: CMakeFiles/NfcPost.dir/BuzzIt.c.o.re
 
 CMakeFiles/NfcPost.dir/BuzzIt.c.o.provides.build: CMakeFiles/NfcPost.dir/BuzzIt.c.o
 
+CMakeFiles/NfcPost.dir/timeStrNow.c.o: CMakeFiles/NfcPost.dir/flags.make
+CMakeFiles/NfcPost.dir/timeStrNow.c.o: timeStrNow.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/dev/NfcPost/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/NfcPost.dir/timeStrNow.c.o"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/NfcPost.dir/timeStrNow.c.o   -c /home/pi/dev/NfcPost/timeStrNow.c
+
+CMakeFiles/NfcPost.dir/timeStrNow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/NfcPost.dir/timeStrNow.c.i"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/pi/dev/NfcPost/timeStrNow.c > CMakeFiles/NfcPost.dir/timeStrNow.c.i
+
+CMakeFiles/NfcPost.dir/timeStrNow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/NfcPost.dir/timeStrNow.c.s"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/pi/dev/NfcPost/timeStrNow.c -o CMakeFiles/NfcPost.dir/timeStrNow.c.s
+
+CMakeFiles/NfcPost.dir/timeStrNow.c.o.requires:
+.PHONY : CMakeFiles/NfcPost.dir/timeStrNow.c.o.requires
+
+CMakeFiles/NfcPost.dir/timeStrNow.c.o.provides: CMakeFiles/NfcPost.dir/timeStrNow.c.o.requires
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/timeStrNow.c.o.provides.build
+.PHONY : CMakeFiles/NfcPost.dir/timeStrNow.c.o.provides
+
+CMakeFiles/NfcPost.dir/timeStrNow.c.o.provides.build: CMakeFiles/NfcPost.dir/timeStrNow.c.o
+
+CMakeFiles/NfcPost.dir/LogTap.c.o: CMakeFiles/NfcPost.dir/flags.make
+CMakeFiles/NfcPost.dir/LogTap.c.o: LogTap.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/dev/NfcPost/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/NfcPost.dir/LogTap.c.o"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/NfcPost.dir/LogTap.c.o   -c /home/pi/dev/NfcPost/LogTap.c
+
+CMakeFiles/NfcPost.dir/LogTap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/NfcPost.dir/LogTap.c.i"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/pi/dev/NfcPost/LogTap.c > CMakeFiles/NfcPost.dir/LogTap.c.i
+
+CMakeFiles/NfcPost.dir/LogTap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/NfcPost.dir/LogTap.c.s"
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/pi/dev/NfcPost/LogTap.c -o CMakeFiles/NfcPost.dir/LogTap.c.s
+
+CMakeFiles/NfcPost.dir/LogTap.c.o.requires:
+.PHONY : CMakeFiles/NfcPost.dir/LogTap.c.o.requires
+
+CMakeFiles/NfcPost.dir/LogTap.c.o.provides: CMakeFiles/NfcPost.dir/LogTap.c.o.requires
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/LogTap.c.o.provides.build
+.PHONY : CMakeFiles/NfcPost.dir/LogTap.c.o.provides
+
+CMakeFiles/NfcPost.dir/LogTap.c.o.provides.build: CMakeFiles/NfcPost.dir/LogTap.c.o
+
 # Object files for target NfcPost
 NfcPost_OBJECTS = \
 "CMakeFiles/NfcPost.dir/main.c.o" \
@@ -218,7 +264,9 @@ NfcPost_OBJECTS = \
 "CMakeFiles/NfcPost.dir/TapPost.c.o" \
 "CMakeFiles/NfcPost.dir/GetJsonNow.c.o" \
 "CMakeFiles/NfcPost.dir/BlinkOk.c.o" \
-"CMakeFiles/NfcPost.dir/BuzzIt.c.o"
+"CMakeFiles/NfcPost.dir/BuzzIt.c.o" \
+"CMakeFiles/NfcPost.dir/timeStrNow.c.o" \
+"CMakeFiles/NfcPost.dir/LogTap.c.o"
 
 # External object files for target NfcPost
 NfcPost_EXTERNAL_OBJECTS =
@@ -230,6 +278,8 @@ NfcPost: CMakeFiles/NfcPost.dir/TapPost.c.o
 NfcPost: CMakeFiles/NfcPost.dir/GetJsonNow.c.o
 NfcPost: CMakeFiles/NfcPost.dir/BlinkOk.c.o
 NfcPost: CMakeFiles/NfcPost.dir/BuzzIt.c.o
+NfcPost: CMakeFiles/NfcPost.dir/timeStrNow.c.o
+NfcPost: CMakeFiles/NfcPost.dir/LogTap.c.o
 NfcPost: CMakeFiles/NfcPost.dir/build.make
 NfcPost: NxpRdLib_PublicRelease/build/libnxprd.a
 NfcPost: CMakeFiles/NfcPost.dir/link.txt
@@ -247,6 +297,8 @@ CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/TapPost.c.o.requires
 CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/GetJsonNow.c.o.requires
 CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/BlinkOk.c.o.requires
 CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/BuzzIt.c.o.requires
+CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/timeStrNow.c.o.requires
+CMakeFiles/NfcPost.dir/requires: CMakeFiles/NfcPost.dir/LogTap.c.o.requires
 .PHONY : CMakeFiles/NfcPost.dir/requires
 
 CMakeFiles/NfcPost.dir/clean:

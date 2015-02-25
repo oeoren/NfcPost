@@ -6,6 +6,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/NfcPost.dir/GetJsonNow.c.o"
   "CMakeFiles/NfcPost.dir/BlinkOk.c.o"
   "CMakeFiles/NfcPost.dir/BuzzIt.c.o"
+  "CMakeFiles/NfcPost.dir/timeStrNow.c.o"
+  "CMakeFiles/NfcPost.dir/LogTap.c.o"
   "NfcPost.pdb"
   "NfcPost"
 )

@@ -11,6 +11,9 @@ CMakeFiles/NfcPost.dir/GetJsonNow.c.o: GetJsonNow.c
 CMakeFiles/NfcPost.dir/GetSerial.c.o: GetSerial.c
 CMakeFiles/NfcPost.dir/GetSerial.c.o: GetSerial.h
 
+CMakeFiles/NfcPost.dir/LogTap.c.o: LogTap.c
+CMakeFiles/NfcPost.dir/LogTap.c.o: LogTap.h
+
 CMakeFiles/NfcPost.dir/Mifare.c.o: Mifare.c
 CMakeFiles/NfcPost.dir/Mifare.c.o: Mifare.h
 CMakeFiles/NfcPost.dir/Mifare.c.o: NxpRdLib_PublicRelease/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h
@@ -41,6 +44,7 @@ CMakeFiles/NfcPost.dir/Mifare.c.o: NxpRdLib_PublicRelease/types/ph_Status.h
 CMakeFiles/NfcPost.dir/Mifare.c.o: NxpRdLib_PublicRelease/types/ph_TypeDefs.h
 
 CMakeFiles/NfcPost.dir/TapPost.c.o: GetJsonNow.h
+CMakeFiles/NfcPost.dir/TapPost.c.o: LogTap.h
 CMakeFiles/NfcPost.dir/TapPost.c.o: TapPost.c
 CMakeFiles/NfcPost.dir/TapPost.c.o: TapPost.h
 
@@ -48,6 +52,7 @@ CMakeFiles/NfcPost.dir/main.c.o: BlinkOk.h
 CMakeFiles/NfcPost.dir/main.c.o: BuzzIt.h
 CMakeFiles/NfcPost.dir/main.c.o: Mifare.h
 CMakeFiles/NfcPost.dir/main.c.o: main.c
+CMakeFiles/NfcPost.dir/main.c.o: timeStrNow.h
 CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h
 CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/intfs/phKeyStore.h
 CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/intfs/phLog.h
@@ -74,4 +79,6 @@ CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/intfs/phpalSli15693.h
 CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/types/ph_NxpBuild.h
 CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/types/ph_Status.h
 CMakeFiles/NfcPost.dir/main.c.o: NxpRdLib_PublicRelease/types/ph_TypeDefs.h
+
+CMakeFiles/NfcPost.dir/timeStrNow.c.o: timeStrNow.c
 

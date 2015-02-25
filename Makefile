@@ -207,6 +207,30 @@ GetSerial.c.s:
 	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/GetSerial.c.s
 .PHONY : GetSerial.c.s
 
+LogTap.o: LogTap.c.o
+.PHONY : LogTap.o
+
+# target to build an object file
+LogTap.c.o:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/LogTap.c.o
+.PHONY : LogTap.c.o
+
+LogTap.i: LogTap.c.i
+.PHONY : LogTap.i
+
+# target to preprocess a source file
+LogTap.c.i:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/LogTap.c.i
+.PHONY : LogTap.c.i
+
+LogTap.s: LogTap.c.s
+.PHONY : LogTap.s
+
+# target to generate assembly for a file
+LogTap.c.s:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/LogTap.c.s
+.PHONY : LogTap.c.s
+
 Mifare.o: Mifare.c.o
 .PHONY : Mifare.o
 
@@ -279,6 +303,30 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/main.c.s
 .PHONY : main.c.s
 
+timeStrNow.o: timeStrNow.c.o
+.PHONY : timeStrNow.o
+
+# target to build an object file
+timeStrNow.c.o:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/timeStrNow.c.o
+.PHONY : timeStrNow.c.o
+
+timeStrNow.i: timeStrNow.c.i
+.PHONY : timeStrNow.i
+
+# target to preprocess a source file
+timeStrNow.c.i:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/timeStrNow.c.i
+.PHONY : timeStrNow.c.i
+
+timeStrNow.s: timeStrNow.c.s
+.PHONY : timeStrNow.s
+
+# target to generate assembly for a file
+timeStrNow.c.s:
+	$(MAKE) -f CMakeFiles/NfcPost.dir/build.make CMakeFiles/NfcPost.dir/timeStrNow.c.s
+.PHONY : timeStrNow.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +348,9 @@ help:
 	@echo "... GetSerial.o"
 	@echo "... GetSerial.i"
 	@echo "... GetSerial.s"
+	@echo "... LogTap.o"
+	@echo "... LogTap.i"
+	@echo "... LogTap.s"
 	@echo "... Mifare.o"
 	@echo "... Mifare.i"
 	@echo "... Mifare.s"
@@ -309,6 +360,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... timeStrNow.o"
+	@echo "... timeStrNow.i"
+	@echo "... timeStrNow.s"
 .PHONY : help
 
 
